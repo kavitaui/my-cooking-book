@@ -1,0 +1,1 @@
+export {default as cooking} from './NavCook.png';
