@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
+import AllInOne from "./Cook-Book/AllInOne";
 import Header from "./Cook-Book/Header";
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         >
           Learn React
         </a> */}
+       
      <Header/>
+     <AllInOne/>
     </div>
   );
 }

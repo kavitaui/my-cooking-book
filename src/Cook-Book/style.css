@@ -1,39 +1,43 @@
-.navbar ::before{
+.navbar {
     z-index: 100;
     background-color: transparent;
-    position:fixed;
+    position: fixed;
     top: 0%;
     bottom: auto;
     left: 0%;
     right: 0%;
-    padding-bottom: 0%;
+    padding-bottom: 0% !important;
 }
 
 
-.block-navbar{
+.block-navbar {
     background-color: white;
     flex-direction: row;
     justify-content: space-between;
-    align-items:center;
-    padding:10px 2% 3px;
-    display:flex;
-    box-shadow: 0 0 50px rgba(63,44,39,.18);
+    align-items: center;
+    padding: 10px 2% 3px;
+    display: flex;
+    box-shadow: 0 0 50px rgba(63, 44, 39, .18);
 }
-.nav-menu{
-    z-index:10;
+
+.nav-menu {
+    z-index: 10;
     justify-content: center;
     align-items: center;
-    display:flex;
-    
+    display: flex;
+
 }
-.w-nav-menu{
-    float:left;
-    position:relative;
+
+.w-nav-menu {
+    float: left;
+    position: relative;
 }
-.menu{
+
+.menu {
     display: contents !important;
 }
-.button-nav{
+
+.button-nav {
     color: white;
     text-align: center;
     letter-spacing: .06em;
@@ -44,14 +48,16 @@
     font-size: 13px;
     font-weight: 500;
     line-height: 1.2em;
-    transition: transform .3s cubic-bezier(.25,.46,.45,.94),background-color .3s cubic-bezier(.25,.46,.45,.94);
+    transition: transform .3s cubic-bezier(.25, .46, .45, .94), background-color .3s cubic-bezier(.25, .46, .45, .94);
 }
-.started{
-    width:12% !important;
+
+.started {
+    width: 12% !important;
 }
-.wave-navbar{
-    width:100%;
-    height:36px;
+
+.wave-navbar {
+    width: 100%;
+    height: 36px;
     background-position: 50%;
     background-repeat: repeat-x;
     /* background-size: auto; */
@@ -60,7 +66,8 @@
     z-index: 99999;
     background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/navbg.svg);
 }
-.w-nav-overlay::after{
+
+.w-nav-overlay {
     width: 100%;
     display: none;
     position: absolute;
@@ -69,4 +76,81 @@
     right: 0;
     overflow: hidden;
 
+}
+
+.main {
+    background-color: #f4f2f0;
+    position: relative;
+    height: 10px;
+
+}
+
+.col-md-4.offset-md-4.text-center {
+    margin-left: 32.333333%;
+    padding: 3%;
+    height: 450px;
+    position: relative;
+
+}
+
+.chowmin {
+    background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/MainImg2.webp);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 300px !important;
+    height: 300px;
+    top: -43px;
+    left: 7px;
+    background-size: 100%;
+}
+.veggie{
+    position:absolute;
+    background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/MainImg3.webp);
+    background-repeat:no-repeat;
+    height:300px;
+    width: 200px;
+    top:400px;
+    background-size: 35%;
+    left: -95px;
+}
+.phone{
+    position:absolute;  
+    background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/MainImg1.webp);
+    background-repeat:no-repeat;
+    height:620px;
+    width:324px !important;
+    left:78%;
+    top:80px;
+    background-size:100%;
+}
+.text-center{
+   
+   font-family: sans-serif;
+   margin-bottom: 28px;
+   color: var(--heading);
+   font-size: 81px;
+   line-height: 1.05em;
+   margin-top: 115px;
+}
+.sub-heading{
+   max-width:530px;
+   margin-bottom: 40px;
+   font-size: 24px;
+   line-height: 1.5em;
+   margin-left: 154px;
+   color:#5b5b5e
+}
+ .apple{
+
+    height:5px;
+    width:5px;
+
+} 
+.GooglePlay{
+    height:5px;
+    width:5px; 
+} 
+.img,svg{
+    height: 10px;
+    vertical-align: middle;
 }
