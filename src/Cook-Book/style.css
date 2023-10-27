@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .navbar {
     z-index: 100;
     background-color: transparent;
@@ -53,6 +56,7 @@
 
 .started {
     width: 12% !important;
+    white-space:nowrap !important;
 }
 
 .wave-navbar {
@@ -107,11 +111,12 @@
     position:absolute;
     background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/MainImg3.webp);
     background-repeat:no-repeat;
-    height:300px;
-    width: 200px;
+    height:340px;
+    width: 336px;
     top:400px;
-    background-size: 35%;
-    left: -95px;
+    background-size: 100%;
+    
+    background-position: -84px 10px;
 }
 .phone{
     position:absolute;  
@@ -140,17 +145,29 @@
    margin-left: 154px;
    color:#5b5b5e
 }
- .apple{
-
-    height:5px;
-    width:5px;
-
-} 
-.GooglePlay{
-    height:5px;
-    width:5px; 
-} 
-.img,svg{
-    height: 10px;
-    vertical-align: middle;
+/* .apps{
+  
+   height:10px;
+  
+} */
+.apps img{
+    height:56px;
+    margin-left: 300px !important;
 }
+.col-6{
+    width: 65% !important;;
+}
+.star{
+    position:absolute;
+    left:40%;
+margin-top: 30px;
+
+}
+ .star i{
+    position :absolute;
+    width:3px;
+    height:3px;
+    
+
+}
+ 
