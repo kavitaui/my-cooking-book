@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 // import './App.css';
+import AddRecipie from "./Cook-Book/AddRecipie";
 import AllInOne from "./Cook-Book/AllInOne";
 import Header from "./Cook-Book/Header";
+import Footer from "./Cook-Book/Footer";
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,8 @@ function App() {
        
      <Header/>
      <AllInOne/>
+     <AddRecipie/>
+     <Footer/>
     </div>
   );
 }

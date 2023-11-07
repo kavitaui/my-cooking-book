@@ -63,12 +63,13 @@ body{
     width: 100%;
     height: 36px;
     background-position: 50%;
-    background-repeat: repeat-x;
-    /* background-size: auto; */
-    /* background-attachment: scroll; */
+    background-repeat: no-repeat;
+    background-size: auto; 
+     /* background-attachment: scroll; */
     position: absolute;
     z-index: 99999;
     background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/navbg.svg);
+ top: 85px;
 }
 
 .w-nav-overlay {
@@ -85,7 +86,7 @@ body{
 .main {
     background-color: #f4f2f0;
     position: relative;
-    height: 10px;
+    height:745px !important;
 
 }
 
@@ -103,8 +104,8 @@ body{
     position: absolute;
     width: 300px !important;
     height: 300px;
-    top: -43px;
-    left: 7px;
+    top: -38px;
+    left: -12px;
     background-size: 100%;
 }
 .veggie{
@@ -112,8 +113,8 @@ body{
     background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/MainImg3.webp);
     background-repeat:no-repeat;
     height:340px;
-    width: 336px;
-    top:400px;
+    width: 340px;
+    top: 405px;
     background-size: 100%;
     
     background-position: -84px 10px;
@@ -125,7 +126,7 @@ body{
     height:620px;
     width:324px !important;
     left:78%;
-    top:80px;
+    top: 125px;
     background-size:100%;
 }
 .text-center{
@@ -159,15 +160,158 @@ body{
 }
 .star{
     position:absolute;
-    left:40%;
-margin-top: 30px;
+ margin-left: 30% !important;
+margin-top: 30px !important ;
 
 }
- .star i{
-    position :absolute;
-    width:3px;
-    height:3px;
+.bi-star-fill {
+    width:50%;
+    height:50%;
+    color: #f9bb2d;
+  
+ 
+}
+.bi-star-half{
+    color:#f9bb2d;
+}
+
+.bottom-nav{
+    width:100%;
+    background:url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/bottom-nav.svg);
+    background-repeat: repeat-x;
+    height:36px;
+    position:absolute;
+    bottom: 0;
+    float: left;
+    width: 100%;
+}
+.main-div{
+    position:relative;
+    overflow:hidden;
+
+}
+.content{
+    width:100%;
+padding: 100px 25px;
+position:relaive;
+padding-top: 50px;
+padding-bottom:50px;
+}
+.add-reciepie{
+    position:absolute;
+    height: 65%;
+    width: 100%;
+    top: 30px;
+    left: 16px;
+    right: 30px;
+}
+
+.icon-block .image {
+    background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/image-blank.svg) !important;
+position:absolute; 
+background-repeat: no-repeat;
+height: 102px;
+width: 88px;
+margin-left: 87px;
+}
+.image:after{
+    content:'';
+  
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 24px ;
+    top: 46px;
+    left: 32px;
+}
+.first{
+    rotate: 257deg;
+}
+.third{
+    rotate: 89deg;
+}
+.first:after{
+    background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/phonebook.svg) !important;
+   width:18px;
+   rotate: -257deg;
+}
+.second:after{
+    background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/my.svg) !important;
+    width: 24px;
+    height: 20px ;
+}
+.third:after{
+    background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/image2.svg) !important;
+   width:20px ;
+   rotate: -89deg;
+}
+.content{
+    margin-top:52px
+}
+
+
+.subject{
+    position:relative;
+}
+h4{
+    color: #1f1b1a;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+.para-small{
+    max-width: 390px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,Oxygen,Fira Sans,Droid Sans,sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+.content-footer{
+    /* position:relative; */
+    width:100%;
+    max-width: 1350px;
+    align-items: center;
+    background-color:#1f1b1a;
+    color:#ffffff;
+}
+.combine-padding-global{
+    /* position:absolute; */
+    padding-left: 45px !important;
+    padding-right: 3px!important;
+}
+.combine-container-second{
+    padding-left:66px !important;
     
-
 }
+
+
+.combine-container-large.col-12.row {
+    margin-top: 37px;
+    margin-left: 10px;
+}
+ul ,li{
+    list-style-type: none;
+    white-space: nowrap;
+    margin:0;
+    padding:0;
+   
+}
+.img{
+    width: 123px;
+    height: 33px;
+    margin-top:19px;
+}
+.sub-content{
+    margin-top: 15px; 
+}
+ul,ul,li{
+    padding:10px !important;
+    margin-left:-10px !important;
+}
+
+
+
+
+
  

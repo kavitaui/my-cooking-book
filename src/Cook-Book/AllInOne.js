@@ -1,10 +1,10 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import { GooglePlay, apple, web } from "../Cooking-images";
 const AllInOne = () => {
     return (
         <>
-            <div className=' col-12 main'>
+            <div className='col-12 main'>
                 <div className='row'>
                     <div className="col-md-8 offset-md-2 text-center">
                         <div className='centered-div'>
@@ -27,29 +27,18 @@ const AllInOne = () => {
                 <div className='chowmin'></div>
                 <div className='veggie'></div>
                 <div className='phone'></div>
-                <div className=' col-12 row star'>
-                    <div className='col-6'>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i>
-                <i class="bi bi-star"></i></div>
-                <div className='col-6'>
-                 4.6 rating on Apple App Store & Google Play</div>
-                </div>
 
+                <div className=' col-12 row star '>
+                    <div className=' col-6 star-icon '>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        4.6 rating on Apple App Store & Google Play</div>
+                    </div>
+                <div className='bottom-nav'></div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
