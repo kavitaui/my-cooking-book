@@ -298,17 +298,23 @@ ul ,li{
    
 }
 .img{
-    width: 123px;
+    width: 123px !important;
     height: 33px;
-    margin-top:19px;
+    margin-top:19px !important;
 }
 .sub-content{
     margin-top: 15px; 
 }
-ul,ul,li{
+.block-navbar ul,ul,li{
     padding:10px !important;
     margin-left:-10px !important;
+    
 }
+/* .nav-menu ul,ul,li{
+    display:none;
+} */
+
+
 
 
 

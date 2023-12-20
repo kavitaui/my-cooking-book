@@ -8,6 +8,15 @@
 		},
 		{
 			"path": "../../../new-portfolio"
+		},
+		{
+			"path": "../../../portfolio"
+		},
+		{
+			"path": "../../../create_react_2021"
+		},
+		{
+			"path": "../../../wedding-venue"
 		}
 	],
 	"settings": {}

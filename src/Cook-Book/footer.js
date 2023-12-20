@@ -21,7 +21,7 @@ const Footer = () => {
                         <ul>
                             <li>
                                 Features
-                                <ul>
+                                <ul>hello kavita
                                     <li>Get Started</li>
                                     <li>Add & Import</li>
                                     <li>Organise & Search</li>

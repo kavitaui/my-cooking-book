@@ -16,10 +16,34 @@ const Header = () => {
                             }}></img>
                         </div>
 
-                        <div className='col-2 '> HOME</div>
-                        <div className='col-2'>FEATURE</div>
-                        <div className='col-2'>PRICING</div>
-                        <div className='col-2'>MORE</div>
+                        <div className='col-2 '> <ul>
+                            <li>HOME
+                            <ul><li>HOME</li>
+                                <li>GET STARTED</li></ul></li>
+                            </ul></div>
+                        <div className='col-2'>
+                            <ul>
+                                <li>FEATURE
+                                    <ul>
+                                        <li>ADD & IMPORT</li>
+                                        <li>ORGANISE & SEARCH</li>
+                                        <li>PLAN,SHOP,COOK</li>
+                                        <li>WEB APP</li>
+                                        <li>VIDEO</li>
+                                    </ul>
+
+                                </li>
+
+                            </ul></div>
+                        <div className='col-2'><ul><li>PRICING</li></ul></div>
+                        <div className='col-2'><ul><li>MORE
+                            <ul><li>APP COMPARISIONS</li>
+                            <li>FAQ</li>
+                            <li>ROADMAP</li>
+                            <li>IDEAS</li>
+                            <li>BULK IMPORTER</li>
+                            <li>CONTACT US</li>
+                            </ul></li></ul></div>
 
                     </div>
 
@@ -32,16 +56,16 @@ const Header = () => {
 
 
 
-          
 
 
 
-            <div className='wave-navbar '>
 
-                 <div className='w-nav-overlay'> 
+                <div className='wave-navbar '>
 
-                 </div> 
-                 </div>
+                    <div className='w-nav-overlay'>
+
+                    </div>
+                </div>
             </div>
         </>
     )
