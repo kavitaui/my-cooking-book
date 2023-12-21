@@ -4,6 +4,8 @@
 import { Outlet } from "react-router-dom";
 import Header from "./Cook-Book/Header";
 import Footer from "./Cook-Book/Footer";
+import Navbar from "./LearnDropDownMenu/Components/Navbar";
+
 
 
 
@@ -13,6 +15,7 @@ function App() {
       <Header />
       <Outlet />
       <Footer />
+      <Navbar/>
     </div>
   );
 }
