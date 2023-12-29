@@ -1,7 +1,7 @@
 body{
     overflow-x: hidden;
 }
-.navbar {
+.navbar1 {
     z-index: 100;
     background-color: transparent;
     position: fixed;
@@ -11,9 +11,12 @@ body{
     right: 0%;
     padding-bottom: 0% !important;
 }
+.navbar1 col-4{
+    margin-left: -226px;
+}
 
 
-.block-navbar {
+.block-navbar1 {
     background-color: white;
     flex-direction: row;
     justify-content: space-between;
@@ -67,9 +70,9 @@ body{
     background-size: auto; 
      /* background-attachment: scroll; */
     position: absolute;
-    z-index: 99999;
+    z-index: 9;
     background: url(/Users/kavitapandey/my-cooking-book/my-reciepe-book/src/Cooking-images/navbg.svg);
- top: 85px;
+ top: 77px;
 }
 
 .w-nav-overlay {
@@ -313,6 +316,9 @@ ul ,li{
 /* .nav-menu ul,ul,li{
     display:none;
 } */
+.nav{
+    text-align: left;
+}
 
 
 
